@@ -1,4 +1,3 @@
-// listgroups.java
 package com.example.listviewpush;
 
 import android.content.Intent;

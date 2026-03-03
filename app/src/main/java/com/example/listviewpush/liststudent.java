@@ -1,4 +1,4 @@
-// liststudent.java
+
 package com.example.listviewpush;
 
 import android.content.Intent;
@@ -57,27 +57,27 @@ public class liststudent extends AppCompatActivity {
         ArrayList<student> students = new ArrayList<>();
 
         switch (groupPosition) {
-            case 0: // РПО241
-                students.add(new student("Иванов Илья", 4.8, R.drawable.firstphoto, "РПО241"));
+            case 0: // рпо241
+                students.add(new student("Иванов Илья", 3.8, R.drawable.firstphoto, "РПО241"));
                 students.add(new student("Петров Петр", 4.2, R.drawable.firstphoto, "РПО241"));
-                students.add(new student("Сидорова Анна", 4.9, R.drawable.second, "РПО241"));
+                students.add(new student("Сидорова Анна", 3.9, R.drawable.second, "РПО241"));
                 students.add(new student("Козлов Дмитрий", 4.3, R.drawable.firstphoto, "РПО241"));
                 students.add(new student("Морозова Ольга", 4.6, R.drawable.second, "РПО241"));
                 break;
 
-            case 1: // РПО242
+            case 1: // рпо242
                 students.add(new student("Петрова Ксения", 4.5, R.drawable.second, "РПО242"));
-                students.add(new student("Смирнов Алексей", 4.3, R.drawable.firstphoto, "РПО242"));
+                students.add(new student("Смирнов Алексей", 3.3, R.drawable.firstphoto, "РПО242"));
                 students.add(new student("Козлова Мария", 4.7, R.drawable.second, "РПО242"));
                 students.add(new student("Васильев Игорь", 4.1, R.drawable.firstphoto, "РПО242"));
-                students.add(new student("Новикова Анна", 4.8, R.drawable.second, "РПО242"));
+                students.add(new student("Новикова Анна", 3.8, R.drawable.second, "РПО242"));
                 break;
 
-            case 2: // РПО243
+            case 2: //рпо 243
                 students.add(new student("Сираева Алия", 4.9, R.drawable.second, "РПО243"));
                 students.add(new student("Васильев Дмитрий", 4.1, R.drawable.firstphoto, "РПО243"));
                 students.add(new student("Николаева Елена", 4.6, R.drawable.second, "РПО243"));
-                students.add(new student("Морозов Антон", 4.4, R.drawable.firstphoto, "РПО243"));
+                students.add(new student("Морозов Антон", 3.4, R.drawable.firstphoto, "РПО243"));
                 students.add(new student("Соколова Ирина", 4.7, R.drawable.second, "РПО243"));
                 break;
         }
